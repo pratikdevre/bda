@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+                xmlns:tools = "http://schemas.android.com/tools"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:background = "@color/yellow_main">
+
+    <LinearLayout
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginStart = "20dp"
+        android:layout_marginTop = "20dp"
+        android:layout_marginBottom = "10dp"
+        android:gravity = "center"
+        android:orientation = "vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id = "@+id/navigation_photo"
+            android:layout_width = "100dp"
+            android:layout_height = "100dp"
+            android:layout_gravity = "center"
+            android:src = "@color/black" />
+        <TextView
+            android:id = "@+id/navigationUserName"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_marginTop = "10dp"
+            android:text = "---"
+            android:textColor = "@color/black"
+            android:textSize = "15dp"
+            android:textStyle = "bold"
+            tools:ignore = "HardcodedText,SpUsage" />
+    <TextView
+        android:id = "@+id/navigationUserType"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "---"
+        android:textColor = "@color/black"
+        android:textSize = "15dp"
+        android:textStyle="bold"
+        tools:ignore = "HardcodedText,SpUsage" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

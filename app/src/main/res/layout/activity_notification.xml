@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+                xmlns:app = "http://schemas.android.com/apk/res-auto"
+                xmlns:tools = "http://schemas.android.com/tools"
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                tools:context = ".Profile.NotificationActivity">
+<androidx.appcompat.widget.Toolbar
+    android:id = "@+id/toolbar2"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:layout_alignParentStart = "true"
+    android:layout_alignParentTop = "true"
+    android:layout_alignParentEnd = "true"
+    android:background = "#FF9800"
+    app:title = "Notifications" />
+   <TextView
+       android:id="@+id/nothing2"
+       android:layout_width = "match_parent"
+       android:layout_height = "match_parent"
+       android:layout_below="@+id/toolbar2"
+       android:text="Nothing to show!"
+       android:textStyle="bold"
+       android:visibility="gone"
+       android:textSize="25dp"
+       android:textColor="#AF2B2B"
+       android:gravity="center"
+
+       tools:ignore = "HardcodedText,SpUsage" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id = "@+id/rcv_notification"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_below = "@+id/toolbar2"
+            android:layout_alignParentStart = "true"
+            android:layout_alignParentEnd = "true" />
+  </RelativeLayout>

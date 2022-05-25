@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              xmlns:app = "http://schemas.android.com/apk/res-auto"
+              xmlns:tools = "http://schemas.android.com/tools"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent"
+              android:background = "@color/yellow_main"
+              android:orientation = "vertical"
+              tools:context = ".Profile.FullInformationActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id = "@+id/toolbar3"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:background = "#FF9800"
+        app:title = "Information" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:orientation = "vertical"
+
+            >
+  <TextView
+      android:id = "@+id/full_type"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:layout_margin = "10dp"
+      android:text = "type infor"
+      android:textAlignment = "center"
+      android:textColor = "@color/black"
+      android:textSize = "25dp"
+      android:textStyle = "bold"
+      tools:ignore = "HardcodedText" />
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:id = "@+id/full_photo"
+      android:layout_width = "150dp"
+      android:layout_height = "150dp"
+      android:layout_gravity = "center"
+      android:layout_margin = "5dp" />
+  <TextView
+      android:id = "@+id/full_name"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:layout_margin = "10dp"
+      android:text = "My Profile"
+      android:textAlignment = "center"
+      android:textColor = "@color/black"
+      android:textSize = "15dp"
+      android:textStyle = "bold"
+      tools:ignore = "HardcodedText" />
+  <TextView
+      android:id = "@+id/fullEmail"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:layout_margin = "10dp"
+      android:text = "My Profile"
+      android:textAlignment = "center"
+      android:textColor = "@color/black"
+      android:textSize = "15dp"
+      android:textStyle = "bold"
+      tools:ignore = "HardcodedText" />
+  <TextView
+      android:id = "@+id/fullPhone"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:layout_margin = "10dp"
+      android:text = "My Profile"
+      android:textAlignment = "center"
+      android:textColor = "@color/black"
+      android:textSize = "15dp"
+      android:textStyle = "bold"
+      tools:ignore = "HardcodedText" />
+  <TextView
+      android:id = "@+id/full_location"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:layout_margin = "10dp"
+      android:text = "My Profile"
+      android:textAlignment = "center"
+      android:textColor = "@color/black"
+      android:textSize = "15dp"
+      android:textStyle = "bold"
+      tools:ignore = "HardcodedText" />
+  <TextView
+      android:id = "@+id/full_bloodGrp"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:layout_margin = "10dp"
+      android:text = "My Profile"
+      android:textAlignment = "center"
+      android:textColor = "@color/black"
+      android:textSize = "15dp"
+      android:textStyle = "bold"
+      tools:ignore = "HardcodedText" />
+
+        <ImageView
+            android:id = "@+id/full_email"
+            android:layout_width = "match_parent"
+            android:layout_height = "50dp"
+            android:layout_gravity = "center"
+            android:layout_margin = "10dp"
+            android:layout_marginStart = "5dp"
+            android:layout_marginEnd = "5dp"
+            android:background = "@drawable/edittext_bg"
+            android:backgroundTint = "#4CAF50"
+            android:padding = "10dp"
+            android:src = "@drawable/ic_baseline_email_24"
+            app:tint = "@color/black" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

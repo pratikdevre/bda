@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android = "http://schemas.android.com/apk/res/android"
+      xmlns:tools = "http://schemas.android.com/tools">
+
+  <item
+      android:id = "@+id/nav_home"
+      android:icon = "@drawable/ic_baseline_home_24"
+      android:title = "Home"
+      tools:ignore = "HardcodedText" />
+  <item
+      android:id = "@+id/nav_refresh"
+      android:icon = "@drawable/ic_baseline_refresh_24"
+      android:title = "Refresh"
+      tools:ignore = "HardcodedText" />
+  <item
+      android:id = "@+id/nav_searchByLocation"
+      android:icon = "@drawable/ic_baseline_my_location_24"
+      android:title = "Near my location"
+      tools:ignore = "HardcodedText" />
+  <item
+      android:id = "@+id/nav_searchByBloodGroup"
+      android:icon = "@drawable/ic_baseline_search_24"
+      android:title = "Compatible with me"
+      tools:ignore = "HardcodedText" />
+  <item
+      android:id = "@+id/nav_donorsEmail"
+      android:icon = "@drawable/ic_baseline_mark_email_unread_24"
+      android:title = "Sent Emails"
+      tools:ignore = "HardcodedText" />
+  <item
+      android:id = "@+id/nav_profile"
+      android:icon = "@drawable/ic_baseline_account_circle_24"
+      android:title = "My Profile"
+      tools:ignore = "HardcodedText" />
+  <item
+      android:id = "@+id/nav_Notification"
+      android:icon = "@drawable/ic_baseline_notifications_active_24"
+      android:title = "Notifications"
+      tools:ignore = "HardcodedText" />
+  <item
+      android:id = "@+id/nav_about"
+      android:icon = "@drawable/ic_baseline_priority_high_24"
+      android:title = "About Us"
+      tools:ignore = "HardcodedText" />
+  <item
+      android:id = "@+id/nav_logout"
+      android:icon = "@drawable/ic_baseline_exit_to_app_24"
+      android:title = "Logout"
+      tools:ignore = "HardcodedText" />
+</menu>

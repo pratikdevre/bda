@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/drawable/circular_bg.xml" value="0.1325" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/drawable/edittext_bg.xml" value="0.1325" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.169" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.1275" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_about.xml" value="0.25" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_choose_sign_up.xml" value="0.1935185185185185" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_donner_sign_up.xml" value="0.5" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_donor_sign_up.xml" value="0.25" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_full_information.xml" value="0.21770833333333334" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_my_profile.xml" value="0.21770833333333334" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_notification.xml" value="0.21770833333333334" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_recipient_sign_up.xml" value="0.25" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_sent_emails.xml" value="0.21927083333333333" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.5" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/circular_img.xml" value="0.45625" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/navbar_header.xml" value="0.21770833333333334" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/navigation_header.xml" value="0.25" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/progressdialog.xml" value="0.22" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/single_d_r_info.xml" value="0.25" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/single_notification_layout.xml" value="0.21927083333333333" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/layout/single_sent_email_layout.xml" value="0.25" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/menu/main_menu.xml" value="0.17870884993587002" />
+        <entry key="..\:/Android Developement/BloodDonationApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1255" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

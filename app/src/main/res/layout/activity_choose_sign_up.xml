@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              xmlns:tools = "http://schemas.android.com/tools"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent"
+              android:background = "@color/yellow_main"
+              android:gravity = "center"
+              android:orientation = "vertical"
+              android:padding = "10dp"
+              tools:context = ".signupSignin.ChooseSignUpActivity">
+
+  <TextView
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:layout_marginBottom = "30dp"
+      android:gravity = "center"
+      android:text = "Blood Donation App"
+      android:textColor = "#FFFFFF"
+      android:textSize = "30dp"
+      android:textStyle = "bold"
+      tools:ignore = "HardcodedText,SpUsage" />
+  <TextView
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:layout_marginBottom = "30dp"
+      android:gravity = "center"
+
+      android:text = "Welcome to the application!\nChoose who you are?"
+      android:textColor = "@color/black"
+      android:textSize = "25dp"
+      android:textStyle = "bold"
+      tools:ignore = "HardcodedText,SpUsage" />
+
+  <LinearLayout
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:orientation = "vertical">
+
+    <Button
+        android:id = "@+id/donorBtn"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:layout_margin = "10dp"
+        android:backgroundTint = "#FF9800"
+        android:text = "Blood donor"
+        android:textAllCaps = "false"
+        tools:ignore = "HardcodedText,SpUsage" />
+    <Button
+        android:id = "@+id/recipientBtn"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:layout_margin = "10dp"
+        android:backgroundTint = "#FF9800"
+        android:text = "Blood Recipient"
+        android:textAllCaps = "false"
+        tools:ignore = "HardcodedText,SpUsage" />
+
+  </LinearLayout>
+    <Button
+        android:id="@+id/alreadyAcc"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:layout_marginTop = "20dp"
+        android:background = "#00000000"
+        android:paddingStart = "20dp"
+        android:paddingEnd = "20dp"
+        android:text = "Already have account?\nSign in"
+        android:textSize = "15dp"
+        android:textAllCaps = "false"
+        tools:ignore = "HardcodedText,SpUsage" />
+  </LinearLayout>

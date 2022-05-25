@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+            xmlns:app = "http://schemas.android.com/apk/res-auto"
+            xmlns:tools = "http://schemas.android.com/tools"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent">
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:background = "@color/yellow_main"
+        android:orientation = "vertical"
+        android:padding = "20dp"
+        tools:context = ".signupSignin.donorSignUpActivity">
+
+        <TextView
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Donor Registration"
+            android:textAlignment = "center"
+            android:textColor = "@color/black"
+            android:textSize = "25dp"
+            android:textStyle = "bold"
+            tools:ignore = "HardcodedText,SpUsage" />
+
+        <RelativeLayout
+            android:id = "@+id/selectImg"
+            android:layout_width = "140dp"
+            android:layout_height = "140dp"
+            android:layout_gravity = "center_horizontal"
+            android:layout_margin = "10dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id = "@+id/donorImg"
+                android:layout_width = "130dp"
+                android:layout_height = "130dp"
+                android:background = "@drawable/ic_baseline_account_circle_24"
+                android:scaleType = "centerCrop" />
+
+            <ImageView
+                android:layout_width = "50dp"
+                android:layout_height = "50dp"
+                android:layout_alignParentEnd = "true"
+                android:layout_alignParentBottom = "true"
+                android:src = "@drawable/ic_baseline_add_24"
+                app:tint = "@color/black" />
+
+        </RelativeLayout>
+
+
+
+        <Spinner
+            android:padding="5dp"
+            android:id = "@+id/donorLocation"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_marginBottom = "10dp"
+            android:background = "@android:drawable/btn_dropdown"
+            android:entries = "@array/city_name"
+            android:spinnerMode = "dropdown" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id = "@+id/donorUserName"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_marginBottom = "10dp"
+            android:hint = "User Name :"
+            android:textColorHint = "@color/black"
+            tools:ignore = "HardcodedText">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width = "match_parent"
+                android:background="@drawable/edittext_bg"
+                android:layout_height = "match_parent"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id = "@+id/donorPhoneNumber"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_marginBottom = "10dp"
+            android:hint = "Phone Number :"
+            android:textColorHint = "@color/black"
+            tools:ignore = "HardcodedText">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:background="@drawable/edittext_bg"
+/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Spinner
+            android:padding="5dp"
+
+            android:id = "@+id/donorBloodGroup"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_marginBottom = "10dp"
+            android:background = "@android:drawable/btn_dropdown"
+            android:entries = "@array/blood_groups"
+            android:spinnerMode = "dropdown" />
+
+
+
+         <com.google.android.material.textfield.TextInputLayout
+             android:id = "@+id/donorEmail"
+             android:layout_width = "match_parent"
+             android:layout_height = "wrap_content"
+             android:layout_marginBottom = "10dp"
+             android:hint = "Email :"
+             android:textColorHint = "@color/black"
+             tools:ignore = "HardcodedText">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:background="@drawable/edittext_bg"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+          <com.google.android.material.textfield.TextInputLayout
+              android:id = "@+id/donorPassword"
+              android:layout_width = "match_parent"
+              android:layout_height = "wrap_content"
+              android:layout_marginBottom = "10dp"
+              android:hint = "Password :"
+              android:textColorHint = "@color/black"
+              app:passwordToggleEnabled = "true"
+              tools:ignore = "HardcodedText">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:background="@drawable/edittext_bg"
+
+                android:inputType = "textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+          <com.google.android.material.textfield.TextInputLayout
+              android:id = "@+id/donorConfirmPassword"
+              android:layout_width = "match_parent"
+              android:layout_height = "wrap_content"
+              android:layout_marginBottom = "10dp"
+              android:hint = "Confirm Password :"
+              android:textColorHint = "@color/black"
+              app:passwordToggleEnabled = "true"
+              tools:ignore = "HardcodedText">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:background="@drawable/edittext_bg"
+
+                android:inputType = "textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id = "@+id/donorRegisterBtn"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_gravity = "center_horizontal"
+            android:layout_margin = "10dp"
+            android:backgroundTint = "#FF9800"
+            android:text = "Register Donor"
+            android:textAllCaps = "false"
+            android:textColor = "@color/black"
+            tools:ignore = "HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>

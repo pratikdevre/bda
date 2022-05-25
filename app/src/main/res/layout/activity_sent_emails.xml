@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+                                                   xmlns:app = "http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools = "http://schemas.android.com/tools"
+                                                   android:layout_width = "match_parent"
+                                                   android:layout_height = "match_parent"
+                                                   tools:context = ".Profile.SentEmailsActivity">
+<androidx.appcompat.widget.Toolbar
+    android:id = "@+id/toolbar5"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:background = "#FF9800"
+    app:title = "Sent Messages" />
+    <TextView
+        android:id="@+id/nothing"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:layout_below="@+id/toolbar5"
+        android:text="Nothing to show!"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textSize="25dp"
+        android:textColor="#AF2B2B"
+        android:gravity="center"
+
+        />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id = "@+id/rcv_sentEmail"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_below = "@+id/toolbar5"
+            android:layout_alignParentStart = "true"
+            android:layout_alignParentEnd = "true" />
+  </RelativeLayout>

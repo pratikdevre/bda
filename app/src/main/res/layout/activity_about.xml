@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              xmlns:app = "http://schemas.android.com/apk/res-auto"
+              xmlns:tools = "http://schemas.android.com/tools"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent"
+              android:background = "@color/yellow_main"
+              android:orientation = "vertical"
+              tools:context = ".Profile.AboutActivity">
+
+  <androidx.appcompat.widget.Toolbar
+      android:id = "@+id/toolbar2"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      app:title = "About Us"
+      android:background="#FF9800"
+      />
+  <TextView
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:layout_margin = "20dp"
+      android:text = "Project Members"
+      android:textAlignment = "center"
+      android:textColor = "@color/black"
+      android:textSize = "25dp"
+      android:textStyle = "bold"
+      tools:ignore = "HardcodedText,SpUsage" />
+  <androidx.cardview.widget.CardView
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      app:cardCornerRadius="20dp"
+      app:cardElevation="10dp"
+      app:cardUseCompatPadding="true"
+      android:background = "@drawable/edittext_bg"
+      android:backgroundTint = "#FF9800">
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical"
+        android:padding = "20dp">
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Name : Pratik Devre"
+        android:textColor = "@color/white"
+        android:textSize = "20dp"
+        android:textStyle = "bold"
+        tools:ignore = "HardcodedText,SpUsage" />
+
+      <TextView
+          android:layout_width = "wrap_content"
+          android:layout_height = "wrap_content"
+          android:text = "Class : BCS TY"
+          android:textColor = "@color/white"
+          android:textSize = "20dp"
+          android:textStyle = "bold"
+          tools:ignore = "HardcodedText,SpUsage" />
+
+
+            </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+  <androidx.cardview.widget.CardView
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      app:cardCornerRadius="20dp"
+      app:cardElevation="10dp"
+      app:cardUseCompatPadding="true"      android:background = "@drawable/edittext_bg"
+      android:backgroundTint = "#FF9800">
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical"
+        android:padding = "20dp">
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Name : Sharda Shinde"
+        android:textColor = "@color/white"
+        android:textSize = "20dp"
+        android:textStyle = "bold"
+        tools:ignore = "HardcodedText,SpUsage" />
+
+      <TextView
+          android:layout_width = "wrap_content"
+          android:layout_height = "wrap_content"
+          android:text = "Class : BCS TY"
+          android:textColor = "@color/white"
+          android:textSize = "20dp"
+          android:textStyle = "bold"
+          tools:ignore = "HardcodedText,SpUsage" />
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+  </LinearLayout>

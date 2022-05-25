@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              xmlns:app = "http://schemas.android.com/apk/res-auto"
+              xmlns:tools = "http://schemas.android.com/tools"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent"
+              android:background = "@color/yellow_main"
+              android:gravity = "center"
+              android:orientation = "vertical"
+              android:padding = "10dp"
+              tools:context = ".signupSignin.SignInActivity">
+
+  <TextView
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:layout_marginBottom = "30dp"
+      android:gravity = "center"
+      android:text = "Blood Donation App"
+      android:textColor = "@color/white"
+      android:textSize = "30dp"
+      android:textStyle = "bold"
+      tools:ignore = "HardcodedText,SpUsage" />
+  <TextView
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:layout_marginBottom = "30dp"
+      android:gravity = "center"
+      android:text = "Welcome to the application!"
+      android:textColor = "@color/black"
+      android:textSize = "25dp"
+      android:textStyle = "bold"
+      tools:ignore = "HardcodedText,SpUsage" />
+
+  <LinearLayout
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:orientation = "vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id = "@+id/signin_email"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginBottom = "5dp"
+        android:hint = "Email address"
+        android:textColorHint = "@color/black"
+        tools:ignore = "HardcodedText">
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width = "match_parent"
+          android:layout_height = "match_parent"
+          android:background="@drawable/edittext_bg"
+          />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id = "@+id/signin_password"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:hint = "Password"
+        android:textColorHint = "@color/black"
+        app:passwordToggleEnabled = "true"
+        tools:ignore = "HardcodedText">
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width = "match_parent"
+          android:layout_height = "match_parent"
+          android:inputType="textPassword"
+          android:background="@drawable/edittext_bg"
+          />
+    </com.google.android.material.textfield.TextInputLayout>
+
+     <Button
+         android:id = "@+id/forgetPswd"
+         android:layout_width = "wrap_content"
+         android:layout_height = "wrap_content"
+         android:layout_gravity = "end"
+         android:background = "#00000000"
+         android:text = "Forget Password?"
+         android:textSize="12dp"
+         android:textAllCaps = "false"
+         tools:ignore = "HardcodedText,SpUsage" />
+    <Button
+        android:id="@+id/signinBtn"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:layout_margin = "10dp"
+        android:backgroundTint = "#FF9800"
+        android:paddingStart = "20dp"
+        android:paddingEnd = "20dp"
+        android:text = "Sign in"
+        android:textSize = "15dp"
+        tools:ignore = "HardcodedText,SpUsage" />
+
+  </LinearLayout>
+    <Button
+        android:id = "@+id/noaccsignUp"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:layout_marginTop = "20dp"
+        android:background = "#00000000"
+        android:text = "Don't have an account?\nSign up"
+        android:textSize = "15dp"
+        android:textAllCaps = "false"
+        tools:ignore = "HardcodedText,SpUsage" />
+  </LinearLayout>
